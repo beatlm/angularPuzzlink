@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'pl-root',
   template: `
   <pl-nav></pl-nav>
-  <pl-home></pl-home>
+  <router-outlet></router-outlet>
   <pl-footer></pl-footer> 
   `,
   styles: []
