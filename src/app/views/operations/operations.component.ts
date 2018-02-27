@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'pl-footer',
+  selector: 'pl-operations',
   template: `
     <p>
-Page powered by @blopezmo    </p>
+      operations works!
+    </p>
   `,
   styles: []
 })
-export class FooterComponent implements OnInit {
+export class OperationsComponent implements OnInit {
 
   constructor() { }
 

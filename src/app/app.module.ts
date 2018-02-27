@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing';
 import { AppComponent } from './app.component';
 import {ComponentsModule} from './lib/components/components.module';
 import {HomeModule} from './pages/home/home.module';
+import {NotFoundModule} from './pages/not-found/not-found.module';
 
 
 
@@ -17,7 +18,8 @@ import {HomeModule} from './pages/home/home.module';
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
-    HomeModule
+    HomeModule,
+    NotFoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]

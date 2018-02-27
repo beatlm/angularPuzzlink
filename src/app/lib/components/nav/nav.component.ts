@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'pl-nav',
   template: `
-    <p>
-      nav works!
-    </p>
+<a routerLink="/operations">Operaciones</a>    
   `,
   styles: []
 })
