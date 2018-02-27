@@ -4,6 +4,7 @@ export class Piece {
   public description: string = "";
   public kind: string;
 
+  
   constructor() {
     this._id = new Date().getTime().toString();
   }
