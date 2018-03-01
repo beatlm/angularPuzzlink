@@ -3,8 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'pl-footer',
   template: `
-    <p>
-Page powered by @blopezmo    </p>
+    <p>Page powered by @blopezmo    </p>
   `,
   styles: []
 })

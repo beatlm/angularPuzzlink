@@ -5,9 +5,9 @@ import * as moment from "moment";
   selector: 'pl-home',
   template: `
   <main>
-  <header>Main content of the Home Page</header>
-  <div>Still a work in progress... for Now: {{ now }}</div>
-  <div>... to be continued... Tomorrow: {{ tomorrow }}</div>
+  <h1>Bienvenid@ a Puzzlink</h1>
+  <div>Comienza a crear fichas y unirlas para completar puzzles.</div>
+  <p> {{ now }}</p>
 </main>
   `,
   styles: []

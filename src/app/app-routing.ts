@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule,LoadChildren } from '@angular/router';
 import { HomeComponent} from './pages/home/home.component'
 import { NotFoundComponent} from './pages/not-found/not-found.component'
+import { OperationsComponent} from './views/operations/operations.component'
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   },
   {
     path: "operations",
-    loadChildren: "./views/operations/operations.module#OperationsModule"
+   /**loadChildren: "./views/operations/operations.module#OperationsModule"/** */
+   component:OperationsComponent
   },
   {
     path: "404",

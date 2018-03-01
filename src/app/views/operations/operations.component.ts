@@ -4,7 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'pl-operations',
   template: `
     <p>
+    <pl-list></pl-list>
       operations works!
+      <a routerLink="/operations/new">Nueva pieza</a>
+      <router-outlet></router-outlet> 
     </p>
   `,
   styles: []
